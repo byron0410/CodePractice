@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "xutility": "cpp",
+        "iosfwd": "cpp",
+        "memory": "cpp",
+        "xlocale": "cpp",
+        "xlocnum": "cpp",
+        "xmemory": "cpp",
+        "vector": "cpp",
+        "ostream": "cpp"
+    }
+}
