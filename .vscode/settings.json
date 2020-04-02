@@ -9,6 +9,11 @@
         "xlocnum": "cpp",
         "xmemory": "cpp",
         "vector": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "xmemory0": "cpp",
+        "xstring": "cpp",
+        "queue": "cpp"
     }
 }
