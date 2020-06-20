@@ -39,5 +39,9 @@ int main()
     {
         cout << "svec[" << i << "]: " << svec[i] << "   ";
     }
+
+    vector<int> copyConstructor1(10);
+    //vector<int> copyConstructor2 = 10;
+    
     return 0;
 }

@@ -25,7 +25,7 @@ public:
 
     int waysToChange2(int n)
     {
-        vector<vector<int>> f(sizeof(a)/sizeof(a[0]) + 1, vector<int>(n + 1));
+        vector<vector<int>> f(sizeof(a) / sizeof(a[0]) + 1, vector<int>(n + 1));
         f[0][0] = 1;
         for (int i = 1; i <= 4; ++i)
             for (int j = 0; j <= n; ++j)
@@ -35,18 +35,18 @@ public:
                 else
                     f[i][j] = f[i - 1][j];
             }
-        return f[sizeof(a)/sizeof(a[0])][n];
+        return f[sizeof(a) / sizeof(a[0])][n];
     }
 
     int waysToChange3(int n)
     {
-        vector<vector<int>> f(sizeof(a)/sizeof(a[0]) + 1, vector<int>(n + 1));
+        vector<vector<int>> f(sizeof(a) / sizeof(a[0]) + 1, vector<int>(n + 1));
         f[0][0] = 1;
         for (int i = 1; i <= 4; ++i)
             for (int j = 0; j <= n; ++j)
                 for (int k = 0; k <= j / a[i - 1]; ++k)
                     f[i][j] += f[i - 1][j - k * a[i - 1]];
-        return f[sizeof(a)/sizeof(a[0])][n];
+        return f[sizeof(a) / sizeof(a[0])][n];
     }
 };
 
