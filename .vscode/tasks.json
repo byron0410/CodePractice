@@ -8,7 +8,7 @@
             "args": [
                 "-g",
                 "-Wall",
-                "-std=c++11",
+                "-std=c++17",
                 "${file}",
                 "-o",
                 "${fileDirname}\\exe\\${fileBasenameNoExtension}.exe"
