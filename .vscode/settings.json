@@ -41,6 +41,12 @@
         "xiosbase": "cpp",
         "xlocinfo": "cpp",
         "xstddef": "cpp",
-        "xtr1common": "cpp"
+        "xtr1common": "cpp",
+        "unordered_map": "cpp",
+        "map": "cpp",
+        "list": "cpp",
+        "stack": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp"
     }
 }
